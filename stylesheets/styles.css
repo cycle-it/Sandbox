@@ -183,6 +183,23 @@ footer {
   bottom:50px;
 }
 
+img#logo {
+  transform:            rotateX(0deg);
+  -webkit-transform:    rotateX(0deg);
+  -ms-transform:        rotateX(0deg);
+}
+
+img#logo:hover {
+ transform:             rotateX(180deg);
+  -webkit-transform:    rotateX(180deg);
+  -ms-transform:        rotateX(180deg);
+}
+
+img#logo {
+  transition:           transform 1s;
+  -webkit-transition:   -webkit-transform 1s;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
